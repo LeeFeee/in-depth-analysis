@@ -1,6 +1,6 @@
 # In-depth Analysis / 深度分析
 
-> 一个用于 Claude Code 的深度分析技能，基于「深度分析法」生成完整的深度分析报告（In-depth Analysis Report）。
+> 一个通用 AI 深度分析技能，兼容 Claude Code、OpenClaw、Hermes Agent 等所有支持 Skill 的 AI 产品，基于「深度分析法」生成完整的深度分析报告（In-depth Analysis Report）。
 
 ## 功能
 
@@ -14,15 +14,17 @@
 
 ## 安装
 
-将 `SKILL.md` 放入 Claude Code 的 skills 目录即可：
+在对话中告诉 AI：
 
-```bash
-cp SKILL.md ~/.claude/skills/In-depth\ Analysis/SKILL.md
 ```
+安装 https://github.com/LeeFeee/in-depth-analysis 这个 skill
+```
+
+支持 Claude Code、OpenClaw、Hermes Agent 等所有兼容 Skill 的 AI 产品。
 
 ## 使用
 
-在 Claude Code 中使用以下触发词：
+使用以下触发词：
 
 ```
 "深度分析 XXX"
